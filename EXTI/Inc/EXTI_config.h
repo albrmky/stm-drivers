@@ -1,0 +1,60 @@
+/*****************************************/
+/********************************/
+/* Author 	: Noureldeen		*/
+/* Date 	: 3 Sep 2020		*/
+/* Version 	: V01				*/
+/********************************/
+#ifndef EXTI0_CONFIG_H
+#define EXTI0_CONFIG_H
+
+/*
+EXTI_LINE0
+EXTI_LINE1
+EXTI_LINE2
+.
+.
+.
+
+*/
+
+#define	EXTI_LINE0 			DISABLE
+#define	EXTI_LINE1 			DISABLE
+#define	EXTI_LINE2 			DISABLE
+#define	EXTI_LINE3 			DISABLE
+#define	EXTI_LINE4 			DISABLE
+#define	EXTI_LINE5 			DISABLE
+#define	EXTI_LINE6 			DISABLE
+#define	EXTI_LINE7 			DISABLE
+#define	EXTI_LINE8 			DISABLE
+#define	EXTI_LINE9 			DISABLE
+#define	EXTI_LINE10			DISABLE
+#define	EXTI_LINE11			DISABLE
+#define	EXTI_LINE12			ENABLE
+#define	EXTI_LINE13			DISABLE
+#define	EXTI_LINE14			DISABLE
+#define	EXTI_LINE15			DISABLE
+/*
+FALLING_EDGE
+RISING_EDGE
+ON_CHANGE
+*/
+#define	EXTI0 _SENSE_MODE		FALLING_EDGE
+#define	EXTI1 _SENSE_MODE		FALLING_EDGE
+#define	EXTI2 _SENSE_MODE		FALLING_EDGE
+#define	EXTI3 _SENSE_MODE		FALLING_EDGE
+#define	EXTI4 _SENSE_MODE		FALLING_EDGE
+#define	EXTI5 _SENSE_MODE		FALLING_EDGE
+#define	EXTI6 _SENSE_MODE		FALLING_EDGE
+#define	EXTI7 _SENSE_MODE		FALLING_EDGE
+#define	EXTI8 _SENSE_MODE		FALLING_EDGE
+#define	EXTI9 _SENSE_MODE		FALLING_EDGE
+#define	EXTI10_SENSE_MODE		FALLING_EDGE
+#define	EXTI11_SENSE_MODE		FALLING_EDGE
+#define	EXTI12_SENSE_MODE		FALLING_EDGE
+#define	EXTI13_SENSE_MODE		FALLING_EDGE
+#define	EXTI14_SENSE_MODE		FALLING_EDGE
+#define	EXTI15_SENSE_MODE		FALLING_EDGE
+
+
+
+#endif

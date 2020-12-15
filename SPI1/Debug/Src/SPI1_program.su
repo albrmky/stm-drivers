@@ -1,0 +1,8 @@
+SPI1_program.c:22:6:SPI1_voidInit	4	static
+SPI1_program.c:84:4:SPI1_u8ReadFlag	16	static
+SPI1_program.c:89:6:SPI1_voidEnableINT	16	static
+SPI1_program.c:94:6:SPI1_voidDisableINT	16	static
+SPI1_program.c:99:6:SPI1_voidWriteData_8	16	static
+SPI1_program.c:104:6:SPI1_voidWriteData_16	16	static
+SPI1_program.c:109:4:SPI1_u8ReadData	4	static
+SPI1_program.c:114:5:SPI1_u16ReadData	4	static

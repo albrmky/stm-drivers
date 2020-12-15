@@ -1,0 +1,7 @@
+"Src/GPIO_program.o"
+"Src/NVIC_program.o"
+"Src/RCC_program.o"
+"Src/SPI1_program.o"
+"Src/STK_progrm.o"
+"Src/main.o"
+"Startup/startup_stm32f103c8tx.o"
