@@ -1,0 +1,15 @@
+TIMER1_program.c:31:6:MTIMER1_voidInit	4	static
+TIMER1_program.c:134:6:MTIMER1_voidSetCCPinsEnable_POLARITY	16	static
+TIMER1_program.c:141:6:MTIMER1_voidWriteARR	16	static
+TIMER1_program.c:146:6:MTIMER1_voidWriteCNT	16	static
+TIMER1_program.c:151:6:MTIMER1_voidWritePSC	16	static
+TIMER1_program.c:156:6:MTIMER1_voidWriteRCR	16	static
+TIMER1_program.c:161:6:MTIMER1_voidWriteCCRx	16	static
+TIMER1_program.c:184:6:MTIMER1_voidEnableMainOutput	16	static
+TIMER1_program.c:190:6:MTIMER1_voidEnableTimer	16	static
+TIMER1_program.c:195:6:MTIMER1_voidDisableUpdate	16	static
+TIMER1_program.c:200:6:MTIMER1_voidUpdateRequest	16	static
+TIMER1_program.c:205:6:MTIMER1_voidSetDirection	16	static
+TIMER1_program.c:211:6:MTIMER1_voidINTEnable	16	static
+TIMER1_program.c:216:6:MTIMER1_voidClearFlag	16	static
+TIMER1_program.c:221:6:MTIMER1_voidGenerateEvent	16	static
