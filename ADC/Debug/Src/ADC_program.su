@@ -1,0 +1,16 @@
+ADC_program.c:20:6:MADC1_voidInit	16	static
+ADC_program.c:78:4:MADC1_u8GetStatus	16	static
+ADC_program.c:82:6:MADC1_voidClearStatus	16	static
+ADC_program.c:88:5:MADC1_u16GetInjData	24	static
+ADC_program.c:105:5:MADC1_u16GetregularData	4	static
+ADC_program.c:110:6:MADC1_voidSetRegularSqeuenceLength	16	static
+ADC_program.c:115:6:MADC1_voidSetRegularChannelSequences	16	static
+ADC_program.c:134:6:MADC1_voidSetInjectedSqeuenceLength	16	static
+ADC_program.c:140:6:MADC1_voidSetInjectedChannelSequences	16	static
+ADC_program.c:147:6:MADC1_voidRegChannelSWTrigger	4	static
+ADC_program.c:152:6:MADC1_voidInjChannelSWTrigger	4	static
+ADC_program.c:157:6:MADC1_voidTempSensor	16	static
+ADC_program.c:163:6:MADC1_voidStartCalibration	4	static
+ADC_program.c:168:6:MADC1_voidStart_Enable	4	static
+ADC_program.c:173:6:MADC1_voidDMA	16	static
+ADC_program.c:179:6:MADC1_voidINTMasks	16	static
