@@ -1,0 +1,6 @@
+all .h file exists in inc folder
+all.c file(program.c and main.c ) exists in src folder
+
+if there are files included in the main.c file add them from their respective folder   (inc or src folders)
+
+the main.c file can be considered as an example of how to use this certain driver
