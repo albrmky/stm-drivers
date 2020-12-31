@@ -52,4 +52,5 @@ void MNVIC_voidTriggerSoftwareInterrupt(s8 Copy_s8IRQ);
 #define NVIC_SPI1				           35
 #define NVIC_SPI2				           36
 
+#define NVIC_ADC1_2						   18
 #endif

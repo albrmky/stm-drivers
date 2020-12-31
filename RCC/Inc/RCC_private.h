@@ -32,4 +32,30 @@
 
 #define RCC_HSE_DIVIDER_ENABLE	1
 #define RCC_HSE_DIVIDER_DISABLE	0
+
+// for AHB bus
+#define  SYSCLK         0000
+#define  SYSCLK_2       1000
+#define  SYSCLK_4       1001
+#define  SYSCLK_8       1010
+#define  SYSCLK_16      1011
+#define  SYSCLK_64      1100
+#define  SYSCLK_128     1101
+#define  SYSCLK_256     1110
+#define  SYSCLK_512     1111
+
+
+// for APB1 and APB2
+#define  HCLK      000
+#define  HCLK_2    100
+#define  HCLK_4    101
+#define  HCLK_8    110
+#define  HCLK_16   111
+
+// for ADC
+#define  PCLK2_2    00
+#define  PCLK2_4    01
+#define  PCLK2_6    10
+#define  PCLK2_8    11
+
 #endif

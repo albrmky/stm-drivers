@@ -42,5 +42,38 @@
 #endif
 
 
+// buses and important pripherals prescalers
+
+/*
+SYSCLK
+SYSCLK_2
+SYSCLK_4
+SYSCLK_8
+SYSCLK_16
+SYSCLK_64
+SYSCLK_128
+SYSCLK_256
+SYSCLK_512
+ */
+
+#define AHB_PRESCALER SYSCLK
+
+/*
+HCLK
+HCLK_2
+HCLK_4
+HCLK_8
+HCLK_16
+ */
+#define APB2_PRESCALER  HCLK
+#define APB1_PRESCALER  HCLK
+
+/*
+PCLK2_2
+PCLK2_4
+PCLK2_6
+PCLK2_8
+ */
+#define ADC_PRESCALER PCLK2_2
 
 #endif

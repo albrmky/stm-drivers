@@ -31,5 +31,6 @@ void RCC_voidDisableClock(u8 Copy_u8BusId,u8 Copy_u8PerId);
 #define RCC_SPI1 	2,12
 #define RCC_SPI2 	1,14
 
+#define RCC_ADC1    2,9
 
 #endif
