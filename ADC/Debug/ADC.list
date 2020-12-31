@@ -35,15 +35,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  15 .debug_ranges 000001d8  00000000  00000000  00011fa8  2**3
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_macro  000013d5  00000000  00000000  00012180  2**0
+ 16 .debug_macro  000013cc  00000000  00000000  00012180  2**0
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_line   00000ec0  00000000  00000000  00013555  2**0
+ 17 .debug_line   00000e74  00000000  00000000  0001354c  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    0000502b  00000000  00000000  00014415  2**0
+ 18 .debug_str    00004fde  00000000  00000000  000143c0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  00019440  2**0
+ 19 .comment      0000007b  00000000  00000000  0001939e  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00000798  00000000  00000000  000194bc  2**2
+ 20 .debug_frame  00000798  00000000  00000000  0001941c  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -1039,8 +1039,8 @@ void MUSART1_voidTransmitChar(u8 Copy_u8Data)
  8000740:	40013800 	.word	0x40013800
 
 08000744 <ADC1_2_IRQHandler>:
+#include "ADC_interface.h"
 #include "USART_interface.h"
-#include "TIMER1_interface.h"
 
 
 void ADC1_2_IRQHandler(void)

@@ -204,7 +204,6 @@ Discarded input sections
  .group         0x0000000000000000        0xc Src/main.o
  .group         0x0000000000000000        0xc Src/main.o
  .group         0x0000000000000000        0xc Src/main.o
- .group         0x0000000000000000        0xc Src/main.o
  .text          0x0000000000000000        0x0 Src/main.o
  .data          0x0000000000000000        0x0 Src/main.o
  .bss           0x0000000000000000        0x0 Src/main.o
@@ -213,7 +212,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x4c Src/main.o
  .debug_macro   0x0000000000000000       0xf4 Src/main.o
  .debug_macro   0x0000000000000000       0x82 Src/main.o
- .debug_macro   0x0000000000000000       0x22 Src/main.o
  .text          0x0000000000000000       0x14 Startup/startup_stm32f103c8tx.o
  .data          0x0000000000000000        0x0 Startup/startup_stm32f103c8tx.o
  .bss           0x0000000000000000        0x0 Startup/startup_stm32f103c8tx.o
@@ -641,7 +639,7 @@ OUTPUT(ADC.elf elf32-littlearm)
  .debug_ranges  0x00000000000001a0       0x18 Src/main.o
  .debug_ranges  0x00000000000001b8       0x20 Startup/startup_stm32f103c8tx.o
 
-.debug_macro    0x0000000000000000     0x13d5
+.debug_macro    0x0000000000000000     0x13cc
  .debug_macro   0x0000000000000000       0x4c Src/ADC_program.o
  .debug_macro   0x000000000000004c      0xa60 Src/ADC_program.o
  .debug_macro   0x0000000000000aac       0x2e Src/ADC_program.o
@@ -663,19 +661,19 @@ OUTPUT(ADC.elf elf32-littlearm)
  .debug_macro   0x000000000000120f       0x40 Src/USART_program.o
  .debug_macro   0x000000000000124f       0x2e Src/USART_program.o
  .debug_macro   0x000000000000127d       0xe8 Src/USART_program.o
- .debug_macro   0x0000000000001365       0x70 Src/main.o
+ .debug_macro   0x0000000000001365       0x67 Src/main.o
 
-.debug_line     0x0000000000000000      0xec0
+.debug_line     0x0000000000000000      0xe74
  .debug_line    0x0000000000000000      0x205 Src/ADC_program.o
  .debug_line    0x0000000000000205      0x33d Src/GPIO_program.o
  .debug_line    0x0000000000000542      0x1c6 Src/NVIC_program.o
  .debug_line    0x0000000000000708      0x141 Src/RCC_program.o
  .debug_line    0x0000000000000849      0x1c9 Src/STK_progrm.o
  .debug_line    0x0000000000000a12      0x1c2 Src/USART_program.o
- .debug_line    0x0000000000000bd4      0x268 Src/main.o
- .debug_line    0x0000000000000e3c       0x84 Startup/startup_stm32f103c8tx.o
+ .debug_line    0x0000000000000bd4      0x21c Src/main.o
+ .debug_line    0x0000000000000df0       0x84 Startup/startup_stm32f103c8tx.o
 
-.debug_str      0x0000000000000000     0x502b
+.debug_str      0x0000000000000000     0x4fde
  .debug_str     0x0000000000000000     0x3818 Src/ADC_program.o
                                        0x389d (size before relaxing)
  .debug_str     0x0000000000003818      0x7fb Src/GPIO_program.o
@@ -688,9 +686,9 @@ OUTPUT(ADC.elf elf32-littlearm)
                                        0x30a4 (size before relaxing)
  .debug_str     0x0000000000004c3b      0x34d Src/USART_program.o
                                        0x31bf (size before relaxing)
- .debug_str     0x0000000000004f88       0x72 Src/main.o
-                                       0x3453 (size before relaxing)
- .debug_str     0x0000000000004ffa       0x31 Startup/startup_stm32f103c8tx.o
+ .debug_str     0x0000000000004f88       0x25 Src/main.o
+                                       0x3406 (size before relaxing)
+ .debug_str     0x0000000000004fad       0x31 Startup/startup_stm32f103c8tx.o
                                          0x66 (size before relaxing)
 
 .comment        0x0000000000000000       0x7b
